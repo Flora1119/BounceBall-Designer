@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="99dan Project.exe" version="1.0.0.0" publicKeyToken="a083e5c8fb1166ee" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="99dan Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="99dan Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 매니페스트 옵션
+          Windows 사용자 계정 컨트롤 수준을 변경하려면 
+          requestedExecutionLevel 노드를 다음 중 하나로 바꾸세요.
+
+          <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+          <requestedExecutionLevel level="requireAdministrator" uiAccess="false" />
+          <requestedExecutionLevel level="highestAvailable" uiAccess="false" />
+
+          이전 버전과의 호환성을 위해 파일 및 레지스트리 가상화를 사용하려면 
+          requestedExecutionLevel 노드를 삭제하세요.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="99dan Project.exe" size="14816">
+      <assemblyIdentity name="99dan Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Yw3wyniLodKt7+apE2etDh3nCFMyCEjpaZwmpqfzCkA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="99dan Project.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-AMGDAE8\ycjun" issuerKeyHash="1ac278eee08408fc9c58633c73e0dbb2da9241b3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>QC6kWzPBJIya9A8bahWZ2BdcO0CZZwgA1jHcYm7QuwU=</DigestValue></Reference></SignedInfo><SignatureValue>d/INIfH3oUWrOQMAY6yAVoSyHFQiQ3k2YjGDqaDm88AISLUu3uHBDWuLUf1Go0JneDPqKOp9Z+S04Q8AbPBw6YaJyBlfnF5uQ4ZXjmuuKIJ7uATGsCXUtKx/76qsqrdYzX6wBd+gcuYjW2lP+rizUTZSnzWKLFyIIhJHhaVJBWA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uRMy489rQDTQCkVo2fO9GIrhQMxPhG2lXsxK98f2UhR44JyR6f79U1jOwY0TJhkKD3LBZq94AzWwvCRDEQXZXO4bMwQeZuOZIkdMGQ8sRbzWWUPXhHzPFkvqdYu6GtiWEP+/vM9p3sAkp4yWPqQfD8lVAqZFV/eOf4rKD6DCl5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="05bbd06e62dc31d600086799403b5c17d899156a1b0ff49a8c24c1335ba42e40" Description="" Url=""><as:assemblyIdentity name="99dan Project.exe" version="1.0.0.0" publicKeyToken="a083e5c8fb1166ee" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AMGDAE8\ycjun</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Fupn8q3OynNuJMCeMj6FbAw+RtXwe/NPJt1bJMlqG8Q=</DigestValue></Reference></SignedInfo><SignatureValue>qyeOFOphb7KPGodj2QSRd1w09ss0LB4rQIQRKP6kmq6Kg7DlbJpkmF/bcKiXqBuPTUsNeMS9+kd+00K1MjAOsUTO2cfa+klsnitLHtqiXR6XHeWX2KYy1gmqP8tZ3OcEbggVom5Cv9ML4AP4JM4UBJo8VQz3V5PnLrZwPXTs3VE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uRMy489rQDTQCkVo2fO9GIrhQMxPhG2lXsxK98f2UhR44JyR6f79U1jOwY0TJhkKD3LBZq94AzWwvCRDEQXZXO4bMwQeZuOZIkdMGQ8sRbzWWUPXhHzPFkvqdYu6GtiWEP+/vM9p3sAkp4yWPqQfD8lVAqZFV/eOf4rKD6DCl5E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQP6WT45KfhaJKgKpLvrcorTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEATQBHAEQAQQBFADgAXAB5AGMAagB1AG4wHhcNMjExMDAyMDYxNjQzWhcNMjIxMDAyMTIxNjQzWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEEATQBHAEQAQQBFADgAXAB5AGMAagB1AG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALkTMuPPa0A00ApFaNnzvRiK4UDMT4RtpV7MSvfH9lIUeOCcken+/VNYzsGNEyYZCg9ywWaveAM1sLwkQxEF2VzuGzMEHmbjmSJHTBkPLEW81llD14R8zxZL6nWLuhrYlhD/v7zPad7AJKeMlj6kHw/JVQKmRVf3jn+Kyg+gwpeRAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkYn7BVeutRzn0Rk9mYmlXQFyH+YTPqU4jvhBgQYtrInWxvMEBLnQnch21xy9UUc9vEDNFgVs4lHXPwJaKC5ft1f3Pq9CXoOb3cjYK154Y1PDLQXjtbtodpGtxqQDCNGr9jBQhd2gmvdH7K0yGXAs3D2boCV1Bjn9sD70yFuNaPQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
