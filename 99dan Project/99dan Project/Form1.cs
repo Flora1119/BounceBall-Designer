@@ -9,6 +9,11 @@ namespace _99dan_Project
     {
         private const int dot_size = 10;
         private Bitmap bitmap;
+        private BBPaint bbpForm;
+
+        public int imageWidth = 20;
+        public int imageHeight = 20;
+
         //색상표
         public List<string> colorList = new List<string>()
         {
@@ -61,13 +66,13 @@ namespace _99dan_Project
             Origin_Image.Image = bitmap;
             Origin_Image.Width = width_bar.Value * dot_size;
             Origin_Image.Height = height_bar.Value * dot_size;
-            Console.WriteLine(bitmap.Width);
             CreateDotImage(bitmap);
         }
         private void width_bar_Scroll(object sender, EventArgs e)
         {
             Width_Num.Text = width_bar.Value.ToString();
             Origin_Image.Width = width_bar.Value * dot_size;
+            imageWidth = width_bar.Value;
             if (bitmap != null)
                 CreateDotImage(bitmap);
         }
@@ -76,20 +81,21 @@ namespace _99dan_Project
         {
             Height_Num.Text = height_bar.Value.ToString();
             Origin_Image.Height = height_bar.Value * dot_size;
+            imageHeight = height_bar.Value;
             if (bitmap != null)
                 CreateDotImage(bitmap);
         }
 
         private void CreateDotImage(Bitmap bitmap)
         {
-            Bitmap pixelBitmap = new Bitmap(width_bar.Value * dot_size, height_bar.Value * dot_size);
+            Bitmap pixelBitmap = new Bitmap(imageWidth * dot_size, imageHeight * dot_size);
 
-            for (int x = 0; x < width_bar.Value; x++)
+            for (int x = 0; x < imageWidth; x++)
             {
                 Color nearestColor = Color.Empty;
-                for (int y = 0; y < height_bar.Value; y++)
+                for (int y = 0; y < imageHeight; y++)
                 {
-                    Color pixelColor = bitmap.GetPixel((bitmap.Width / width_bar.Value) * x, (bitmap.Height / height_bar.Value) * y);
+                    Color pixelColor = bitmap.GetPixel((bitmap.Width / imageWidth) * x, (bitmap.Height / imageHeight) * y);
                     double distance = 500.0;
 
                     foreach (string c in setColorList)
@@ -162,6 +168,24 @@ namespace _99dan_Project
         private static string HexConverter(Color c)
         {
             return "#" + c.R.ToString("X2") + c.G.ToString("X2") + c.B.ToString("X2");
+        }
+
+        private void AutoSize_btn_Click(object sender, EventArgs e)
+        {
+            if (bitmap != null)
+            {
+                imageHeight = 30;
+                imageWidth = (imageHeight * bitmap.Width) / bitmap.Height;
+                if (imageWidth > 90)
+                    imageWidth = 90;
+                CreateDotImage(bitmap);
+            }
+        }
+
+        private void OpenPaint_btn_Click(object sender, EventArgs e)
+        {
+            bbpForm = new BBPaint();
+            bbpForm.Show();
         }
     }
 }

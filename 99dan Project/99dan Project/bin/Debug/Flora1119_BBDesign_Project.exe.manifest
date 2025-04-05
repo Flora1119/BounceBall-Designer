@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Flora1119_BBDesign_Project.exe" size="29664">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Flora1119_BBDesign_Project.exe" size="32736">
       <assemblyIdentity name="Flora1119_BBDesign_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4Ha+lD397NXPHn3ytGlrcHynP2cpAl1h+9xsX3ki/Aw=</dsig:DigestValue>
+        <dsig:DigestValue>wzExuqBta0bTMi/CpGnBbwuvgC3PFi6RDQvpV6dICPk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

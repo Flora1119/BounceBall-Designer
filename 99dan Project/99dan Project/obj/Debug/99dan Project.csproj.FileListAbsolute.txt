@@ -12,3 +12,18 @@ F:\Yechan\Project\99dan\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign
 F:\Yechan\Project\99dan\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.application
 F:\Yechan\Project\99dan\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.exe
 F:\Yechan\Project\99dan\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.pdb
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\bin\Debug\Flora1119_BBDesign_Project.exe.config
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\bin\Debug\Flora1119_BBDesign_Project.exe.manifest
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\bin\Debug\Flora1119_BBDesign_Project.application
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\bin\Debug\Flora1119_BBDesign_Project.exe
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\bin\Debug\Flora1119_BBDesign_Project.pdb
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\99dan Project.csproj.AssemblyReference.cache
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\_99dan_Project.BBPaint.resources
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\_99dan_Project.BBForm.resources
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\_99dan_Project.Properties.Resources.resources
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\99dan Project.csproj.GenerateResource.cache
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\99dan Project.csproj.CoreCompileInputs.cache
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.exe.manifest
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.application
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.exe
+D:\Yechan\BouncyBall\BounceBall-Designer\99dan Project\99dan Project\obj\Debug\Flora1119_BBDesign_Project.pdb
